@@ -1,10 +1,11 @@
 # leaderboard-task
 
-MY SOLUTION:
+MY SOLUTION:<br/>
 The leaderboard consists of cells that are created after parsing data from the JSON, these cells can be customized for yourself<br/>
 Additional design for cells is stored in the SO for convenience, by type name for the type and its colour<br/>
 The leaderboard script ensures that the leaderboard remains sorted after each update, which is crucial for maintaining correct rankings.<br/>
 Separate script for closing popup, not only Leaderboard, can be used for any popup<br/>
+Uses image caching and asynchronous methods to optimize, reduce load and avoid blocking the main thread.<br/>
 
 CHANGES HAVE BEEN MADE TO PopupManager:
 The class is divided into several entities.<br/>
